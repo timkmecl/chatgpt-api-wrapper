@@ -1,7 +1,7 @@
 {
   "name": "chatgpt-api",
   "version": "0.1.0",
-  "description": "ChatGPT API",
+  "description": "Node.js client for talking to ChatGPT API in a conversational manner.",
   "exports": {
     ".": {
       "import": {
@@ -36,23 +36,30 @@
     "access": "public"
   },
   "keywords": [
-    "npm",
-    "javascript",
-    "typescript",
-    "esm",
-    "cjs",
-    "nodejs",
-    "commonjs",
-    "ecmascript",
-    "beginner",
-    "example",
-    "demonstration"
+    "openai",
+    "chatgpt",
+    "gpt",
+    "gpt3",
+    "chatbot",
+    "chat",
+    "conversation"
   ],
   "author": "Tim Kmecl",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timkmecl/chatgpt-api-wrapper/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timkmecl/chatgpt-api-wrapper.git"
+  },
+  "homepage": "https://github.com/timkmecl/chatgpt-api-wrapper",
   "devDependencies": {
-    "ts-node": "^10.9.1",
-    "typescript": "^4.7.4",
     "semantic-release": "^19.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "openai": "^3.1.0"
   }
 }
