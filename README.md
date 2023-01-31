@@ -1,4 +1,8 @@
 # ChatGPT API Conversation Wrapper
+
+[![NPM](https://img.shields.io/npm/v/chatgpt-api-wrapper.svg)](https://www.npmjs.com/package/chatgpt-api-wrapper)
+[![Downloads](https://img.shields.io/npm/dt/chatgpt-api-wrapper.svg)](https://www.npmjs.com/package/chatgpt-api-wrapper)
+
 A simple Node.js wrapper for connecting to ChatGPT using official OpenAI API, which allows you to easily send requests and get responses from the API in a conversational manner.
 
 You only need to provide your OpenAI API key (no session tokens or using pupeteer for browser automation) - get it [here](https://platform.openai.com/account/api-keys).
