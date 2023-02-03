@@ -27,7 +27,7 @@ class ChatGPT {
 		const prompt = this.prompt.constructPrompt(request);
 
     const completion = await this.openai.createCompletion({
-      model: 'text-chat-davinci-002-20230126',
+      model: 'text-chat-davinci-002-20221122',
       prompt: prompt,
       temperature: 0.5,
       max_tokens: 1024,

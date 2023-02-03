@@ -1,6 +1,6 @@
 {
   "name": "chatgpt-api-wrapper",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Node.js client for talking to ChatGPT API in a conversational manner.",
   "exports": {
     ".": {
